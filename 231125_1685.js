@@ -1,6 +1,8 @@
-const nums = [1, 4, 6, 8, 10];
-
-function getAns(nums) {
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var getSumAbsoluteDifferences = function (nums) {
     const n = nums.length;
     const output = [];
 
@@ -16,7 +18,4 @@ function getAns(nums) {
     }
 
     return output;
-}
-
-const a = getAns(nums);
-console.log(a);
+};
